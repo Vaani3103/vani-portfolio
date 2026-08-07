@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#0b0f14] text-white">
+      <header>
       {/* Navigation */}
               <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
           <div className="text-xl font-bold tracking-wide">
@@ -105,7 +105,7 @@ export default function Home() {
 
               <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-2 shadow-2xl">
                 <Image
-                  src="/profile.jpg"
+                  src="/profile1.jpg"
                   alt="Vani M - Senior SDET and Quality Engineering Leader"
                   width={500}
                   height={500}
